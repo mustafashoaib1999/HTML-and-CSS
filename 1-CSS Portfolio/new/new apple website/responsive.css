@@ -1,0 +1,962 @@
+@media (min-width: 0px) and (max-width:567px){
+    /* cover most mobiles */
+nav{
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(18 18 18 / 95%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    height: 35vh;
+}
+
+.nav-link{
+    display:grid;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    font-size: 25px;
+
+
+    font-weight: 400;
+    gap: 1px;
+    cursor: pointer;
+    color: rgb(182, 178, 178) ;
+    font-size: 12px;
+}
+
+.icons-svgs{
+  
+    filter: invert(100%);
+    gap: 5px;
+}
+
+.hero{
+    padding-top: 151px;
+    background-color: black;
+    color: white;
+    height: 68vh;
+    text-align: center;
+    background-image: url(images/ipad.jpg);
+    background-position: center;
+    background-size: 750px;
+    background-repeat: no-repeat;
+}
+
+.hero h1{
+   
+    
+    font-size: 35px;
+    font-weight:600;
+
+}
+.hero h4 {
+    font-size: 25px;
+    font-weight:600;
+    margin-bottom: 15px;
+}
+
+#button-1{
+    padding: 1px;
+}
+.button-1{
+    font-size: x-small;
+    background: #0077ED;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button-2{
+    font-size: x-small;
+    background-color: black;
+    color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid blue;
+    cursor: pointer;
+    width: 50px;
+}
+.button-2:hover{
+    font-size: medium;
+    background-color: blue;
+    color: white;
+
+}
+
+.first{
+    background-image: url(images/products.PNG);
+    height: 37vh;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+.second{
+    background-color: black;
+    color: white;
+    height: 60vh;
+    text-align: center;
+    padding-top: 40px;
+    background-image: url(images/iPhone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.second .button-1{
+    width: 80px;
+}
+.second .button-2{
+    width: 90px;
+}
+.second h1{
+    
+    font-size: 35px;
+    font-weight:600;
+}
+.second h2{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight:400;
+}
+
+.main{
+    display: flex;
+    margin:10px;
+    
+}
+.box-a{
+    width:49%;
+    background-color: black;
+    color:black;
+    font-size: small;
+    text-align: center;
+    background:url('images/glasses.jpg') ;
+    background-position-x: center;
+    background-position-y:top;
+    background-repeat: no-repeat;
+}
+.box-a-text{
+    margin-top: 270px;
+}
+
+
+.box-b{
+    width:49%;
+    background-color: black;
+    color:black;
+    font-size: small;
+    text-align: center;
+    background:url('images/promo_apple_card__5cm7draujpey_large.jpg') ;
+    background-position-x: center;
+    background-position-y:center;
+    height: 65vh;
+    margin-left: 10px;
+}
+
+.outer{
+    display: flex;
+}
+.box2-a{
+    width:49%;
+    color:black;
+  
+    text-align: center;
+    background:url('images/promo_ai__couihqxznyvm_large.jpg') ;
+    background-position-x:center;
+    background-position-y:bottom;
+    font-size: small;
+
+    height: 50vh;
+    margin: 20px 0px 10px 0px;
+}
+.box2-b{
+    width:49%;
+    background-color: black;
+    color:black;
+    font-size: small;
+    margin-left: 10px;
+    text-align: center;
+    background:url('images/promo_apple_card__5cm7draujpey_large.jpg') ;
+    background-position-x: center;
+    background-position-y:center;
+    height: 50vh;
+
+    margin: 20px 0px 10px 0px;
+}
+.box-b-button-1{
+    font-size: smaller;
+    background: #0077ED;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.box-b-button-2{
+    width: 90px;
+    font-size: smaller;
+   
+    color: blue;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: transparent;
+}
+.box-b-button-2:hover{
+    background: #0077ED;
+    color: #fff;
+    
+}
+
+
+.box2-b-button-2{
+    width:120px
+}
+
+footer{
+    margin-top: 50px;
+    color: black;
+    padding:5px;
+    font-size: x-small;
+   
+    cursor: pointer;
+   
+}
+.main-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    margin-top: 50px;
+  
+}
+
+.footer-text p{
+    margin-left: 70px;
+    
+}
+.footer-nav{
+    margin-top: 15px;
+    text-align: center;
+    font-size: x-small;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.footer-nav ul{
+    list-style: none;
+}
+.footer-text p{
+    margin-left: 70px;
+
+}
+
+.footer-nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.second-box .button-2{
+    width: 180px;
+}
+.second-box-b .button-2{
+    width: 180px;
+}
+
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: xx-small;
+   
+}
+
+a {
+    color: #007aff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+}
+
+
+
+
+
+
+@media (min-width: 568px) and (max-width:767px){}
+
+
+@media (min-width: 768px) and (max-width:1200px){
+    nav {
+        margin: 0;
+        padding: 0;
+        background: black;
+        
+        width: 100%;
+        background-color: rgb(18 18 18 / 95%);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        height: 5vh;
+    }
+    
+    .nav-link {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 10px;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 400;
+        gap: 14px;
+        cursor: pointer;
+        color: rgb(182, 178, 178);
+        font-size: 14px;
+    }
+    .icons-svgs{
+      
+        filter: invert(100%);
+        gap: 5px;
+        display: flex;
+    }
+    
+    .hero{
+        padding-top: 100px;
+        background-color: black;
+        color: white;
+        height: 68vh;
+        text-align: center;
+        background-image: url(images/ipad.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .hero h1{
+       
+        
+        font-size: 45px;
+        font-weight:600;
+    
+    }
+    .hero h4 {
+        font-size: 33px;
+        font-weight:600;
+        margin-bottom: 15px;
+    }
+    
+    #button-1{
+        padding: 1px;
+    }
+    .button-1{
+        font-size: medium;
+        background: #0077ED;
+        color: #fff;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .button-2{
+        font-size: medium;
+        background-color: black;
+        color: blue;
+        border-radius: 20px;
+        padding: 10px;
+        border: 2px solid blue;
+        cursor: pointer;
+        width: 50px;
+    }
+    .button-2:hover{
+        font-size: medium;
+        background-color: blue;
+        color: white;
+    
+    }
+    
+    .first{
+        background-image: url(images/products.PNG);
+        height: 50vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+    }
+    .second{
+        background-color: black;
+        color: white;
+        height: 60vh;
+        text-align: center;
+        padding-top: 40px;
+        background-image: url(images/iPhone.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    
+    }
+    .second .button-1{
+        width: 120px;
+    }
+    .second .button-2{
+        width: 120px;
+    }
+    .second h1{
+        
+        font-size: 55px;
+        font-weight:600;
+    }
+    .second h2{
+        margin-bottom: 5px;
+        font-size: 25px;
+        font-weight:400;
+    }
+    
+    .main{
+        display: flex;
+        margin:10px;
+        
+    }
+    .box-a{
+        width:49%;
+        background-color: black;
+        color:black;
+      font-size: small;
+        text-align: center;
+        background:url('images/glasses.jpg') ;
+        background-position-x: center;
+        background-position-y:top;
+        background-repeat: no-repeat;
+    }
+    .box-a-text{
+        margin-top: 270px;
+    }
+    
+    
+    .box-b{
+        width:49%;
+        background-color: black;
+        color:black;
+      font-size: medium;
+        text-align: center;
+        background:url('images/promo_apple_card__5cm7draujpey_large.jpg') ;
+        background-position-x: center;
+        background-position-y:center;
+        height: 57vh;
+        margin-left: 10px;
+    }
+    
+    .outer{
+        display: flex;
+    }
+    .box2-a{
+        width:49%;
+        color:black;
+      
+        text-align: center;
+        background:url('images/promo_ai__couihqxznyvm_large.jpg') ;
+        background-position-x:center;
+        background-position-y:bottom;
+        font-size: small;
+    
+        height: 50vh;
+        margin: 20px 0px 10px 0px;
+    }
+    .box2-b{
+        width:49%;
+        background-color: black;
+        color:black;
+      font-size: small;
+      margin-left: 10px;
+        text-align: center;
+        background:url('images/promo_apple_card__5cm7draujpey_large.jpg') ;
+        background-position-x: center;
+        background-position-y:center;
+        height: 50vh;
+    
+        margin: 20px 0px 10px 0px;
+    }
+    .box-b-button-1{
+        font-size: smaller;
+        background: #0077ED;
+        color: #fff;
+        border-radius: 20px;
+        padding: 5px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .box-b-button-2{
+        width: 90px;
+        font-size: smaller;
+       
+        color: blue;
+        border-radius: 20px;
+        padding: 5px;
+        border: 2px solid blue;
+        cursor: pointer;
+        margin-top: 15px;
+        background-color: transparent;
+    }
+    .box-b-button-2:hover{
+        background: #0077ED;
+        color: #fff;
+        
+    }
+    
+    
+    .box2-b-button-2{
+        width:120px
+    }
+    
+    footer{
+        margin-top: 50px;
+        color: black;
+        padding:5px;
+        font-size: x-small;
+       
+        cursor: pointer;
+       
+    }
+    .main-footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .footer ul{
+        list-style: none;
+    }
+    
+    .footer ul li{
+        margin-bottom: 10px;
+    }
+    
+    .footer-text{
+        margin-top: 50px;
+      
+    }
+    
+    .footer-text p{
+        margin-left: 70px;
+        
+    }
+    .footer-nav{
+        margin-top: 15px;
+        text-align: center;
+        font-size: x-small;
+        justify-content: space-between;
+        cursor: pointer;
+        
+    }
+    .footer-nav ul{
+        list-style: none;
+    }
+    .footer-text p{
+        margin-left: 70px;
+    
+    }
+    
+    .footer-nav ul li{
+        display: inline;
+        margin-left: 10px;
+    }
+    
+    .second-box .button-2{
+        width: 180px;
+    }
+    .second-box-b .button-2{
+        width: 180px;
+    }
+    
+    
+    .content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        font-size: xx-small;
+       
+    }
+    
+    a {
+        color: #007aff;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    ol {
+        margin-top: 20px;
+    }
+    
+    p {
+        margin-bottom: 10px;
+        line-height: 1.6;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width:1600px){
+
+body{
+    max-width: 1500px;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(18 18 18 / 95%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.nav-link{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    
+    font-weight: 400;
+    gap: 35px;
+    cursor: pointer;
+    color: rgb(182, 178, 178) ;
+    font-size: 9px;
+}
+
+.icons-svgs{
+    display: flex;
+    filter: invert(100%);
+    gap: 35px;
+}
+
+.hero{
+    text-align: center;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+    height: 70vh;
+    text-align: center;
+
+    background-image: url(images/ipad.jpg);
+    background-position: center;
+}
+
+.hero h1{
+   
+    
+    font-size: 55px;
+    font-weight:600;
+
+}
+.hero h4 {
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 25px;
+}
+
+#button-1{
+    padding: 10px;
+}
+.button-1{
+    font-size: medium;
+    background: #0077ED;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button-2{
+    font-size: medium;
+    background-color: black;
+    color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid blue;
+    cursor: pointer;
+    width: 70px;
+}
+.button-2:hover{
+    font-size: medium;
+    background-color: blue;
+    color: white;
+
+}
+
+.first{
+    background-image: url(images/products.PNG);
+    height: 70vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.second{
+    background-color: black;
+    color: white;
+    height: 80vh;
+    text-align: center;
+    padding-top: 40px;
+    background-image: url(images/iPhone.jpg);
+    background-position: center;
+
+}
+.second .button-1{
+    width: 120px;
+}
+.second .button-2{
+    width: 120px;
+}
+.second h1{
+    
+    font-size: 55px;
+    font-weight:600;
+}
+.second h2{
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight:400;
+}
+
+.main{
+    display: flex;
+    margin:10px;
+    
+}
+.box-a{
+    width:49%;
+    background-color: black;
+    color:black;
+  
+    text-align: center;
+    background:url('images/glasses.jpg') ;
+    background-position-x: center;
+    background-position-y:top
+}
+.box-a-text{
+    margin-top: 270px;
+}
+
+
+.box-b{
+    width:49%;
+    background-color: black;
+    color:black;
+  
+    text-align: center;
+    background:url('images/promo_apple_card__5cm7draujpey_large.jpg') ;
+    background-position-x: center;
+    background-position-y:center;
+    height: 70vh;
+}
+
+.outer{
+    display: flex;
+}
+.box2-a{
+    width:49%;
+    color:black;
+  
+    text-align: center;
+    background:url('images/promo_ai__couihqxznyvm_large.jpg') ;
+    background-position-x:center;
+    background-position-y:bottom;
+
+
+    height: 70vh;
+    margin: 20px 0px 10px 0px;
+}
+.box2-b{
+    width:49%;
+    background-color: black;
+    color:black;
+  
+    text-align: center;
+    background:url('images/promo_apple_card__5cm7draujpey_large.jpg') ;
+    background-position-x: center;
+    background-position-y:center;
+    height: 70vh;
+    margin: 20px 0px 10px 0px;
+}
+.box-b-button-1{
+    font-size: smaller;
+    background: #0077ED;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.box-b-button-2{
+    width: 90px;
+    font-size: smaller;
+   
+    color: blue;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: transparent;
+}
+.box-b-button-2:hover{
+    background: #0077ED;
+    color: #fff;
+    
+}
+
+
+.box2-b-button-2{
+    width:120px
+}
+
+footer{
+    margin-top: 50px;
+    color: black;
+    padding:5px;
+    font-size: x-small;
+    max-width: 900px;
+    margin-left: 250px;
+    cursor: pointer;
+   
+}
+.main-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    margin-top: 50px;
+  
+}
+
+.footer-text p{
+    margin-left: 70px;
+    
+}
+.footer-nav{
+    margin-top: 15px;
+    text-align: center;
+    font-size: x-small;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.footer-nav ul{
+    list-style: none;
+}
+.footer-text p{
+    margin-left: 70px;
+
+}
+
+.footer-nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.second-box .button-2{
+    width: 180px;
+}
+.second-box-b .button-2{
+    width: 180px;
+}
+
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: xx-small;
+    max-width: 900px;
+    margin-left: 320px;
+}
+
+a {
+    color: #007aff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+}
